@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-24T12:51:02 IST" name="Suite" finished-at="2023-10-24T12:51:02 IST" duration-ms="295">
+    <groups>
+      <group name="smoke">
+        <method signature="day1.demo_day1B()[pri:0, instance:TstNGFrm.NGFrm.day1@3e8c3cb]" name="demo_day1B" class="TstNGFrm.NGFrm.day1"/>
+        <method signature="day1.demo_day1()[pri:0, instance:TstNGFrm.NGFrm.day1@3e8c3cb]" name="demo_day1" class="TstNGFrm.NGFrm.day1"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-10-24T12:51:02 IST" name="Personal Loan" finished-at="2023-10-24T12:51:02 IST" duration-ms="119">
+      <class name="TstNGFrm.NGFrm.day1">
+        <test-method is-config="true" signature="bClass()[pri:0, instance:TstNGFrm.NGFrm.day1@3e8c3cb]" started-at="2023-10-24T12:51:02 IST" name="bClass" finished-at="2023-10-24T12:51:02 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bClass -->
+        <test-method signature="demo_day1B()[pri:0, instance:TstNGFrm.NGFrm.day1@3e8c3cb]" started-at="2023-10-24T12:51:02 IST" name="demo_day1B" finished-at="2023-10-24T12:51:02 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo_day1B -->
+        <test-method signature="demo_day1()[pri:0, instance:TstNGFrm.NGFrm.day1@3e8c3cb]" started-at="2023-10-24T12:51:02 IST" name="demo_day1" finished-at="2023-10-24T12:51:02 IST" depends-on-methods="TstNGFrm.NGFrm.day1.demo_day1B" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo_day1 -->
+        <test-method is-config="true" signature="aClass()[pri:0, instance:TstNGFrm.NGFrm.day1@3e8c3cb]" started-at="2023-10-24T12:51:02 IST" name="aClass" finished-at="2023-10-24T12:51:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aClass -->
+      </class> <!-- TstNGFrm.NGFrm.day1 -->
+      <class name="TstNGFrm.NGFrm.day2">
+        <test-method is-config="true" signature="cleandata()[pri:0, instance:TstNGFrm.NGFrm.day2@74d1dc36]" started-at="2023-10-24T12:51:02 IST" name="cleandata" finished-at="2023-10-24T12:51:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleandata -->
+        <test-method is-config="true" signature="bMthod()[pri:0, instance:TstNGFrm.NGFrm.day2@74d1dc36]" started-at="2023-10-24T12:51:02 IST" name="bMthod" finished-at="2023-10-24T12:51:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMthod -->
+        <test-method signature="demo2()[pri:0, instance:TstNGFrm.NGFrm.day2@74d1dc36]" started-at="2023-10-24T12:51:02 IST" name="demo2" finished-at="2023-10-24T12:51:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo2 -->
+        <test-method is-config="true" signature="aMethod()[pri:0, instance:TstNGFrm.NGFrm.day2@74d1dc36]" started-at="2023-10-24T12:51:02 IST" name="aMethod" finished-at="2023-10-24T12:51:02 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aMethod -->
+        <test-method is-config="true" signature="bMthod()[pri:0, instance:TstNGFrm.NGFrm.day2@74d1dc36]" started-at="2023-10-24T12:51:02 IST" name="bMthod" finished-at="2023-10-24T12:51:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMthod -->
+        <test-method signature="demo2method()[pri:0, instance:TstNGFrm.NGFrm.day2@74d1dc36]" started-at="2023-10-24T12:51:02 IST" name="demo2method" finished-at="2023-10-24T12:51:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo2method -->
+        <test-method is-config="true" signature="aMethod()[pri:0, instance:TstNGFrm.NGFrm.day2@74d1dc36]" started-at="2023-10-24T12:51:02 IST" name="aMethod" finished-at="2023-10-24T12:51:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aMethod -->
+        <test-method is-config="true" signature="closeallconnection()[pri:0, instance:TstNGFrm.NGFrm.day2@74d1dc36]" started-at="2023-10-24T12:51:02 IST" name="closeallconnection" finished-at="2023-10-24T12:51:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeallconnection -->
+      </class> <!-- TstNGFrm.NGFrm.day2 -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2023-10-24T12:51:02 IST" name="Mobile Loan" finished-at="2023-10-24T12:51:02 IST" duration-ms="45">
+      <class name="TstNGFrm.NGFrm.day4">
+        <test-method signature="apiloginhomeloan()[pri:-1, instance:TstNGFrm.NGFrm.day4@6be968ce]" started-at="2023-10-24T12:51:02 IST" name="apiloginhomeloan" finished-at="2023-10-24T12:51:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiloginhomeloan -->
+        <test-method signature="dividedByZeroEx()[pri:0, instance:TstNGFrm.NGFrm.day4@6be968ce]" started-at="2023-10-24T12:51:02 IST" name="dividedByZeroEx" finished-at="2023-10-24T12:51:02 IST" duration-ms="1" status="PASS">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at TstNGFrm.NGFrm.day4.dividedByZeroEx(day4.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dividedByZeroEx -->
+        <test-method signature="timeOutExample()[pri:0, instance:TstNGFrm.NGFrm.day4@6be968ce]" started-at="2023-10-24T12:51:02 IST" name="timeOutExample" finished-at="2023-10-24T12:51:02 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeOutExample -->
+        <test-method signature="webloginhomeloan()[pri:0, instance:TstNGFrm.NGFrm.day4@6be968ce]" started-at="2023-10-24T12:51:02 IST" name="webloginhomeloan" finished-at="2023-10-24T12:51:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webloginhomeloan -->
+        <test-method signature="webloginhomeloan()[pri:0, instance:TstNGFrm.NGFrm.day4@6be968ce]" started-at="2023-10-24T12:51:02 IST" name="webloginhomeloan" finished-at="2023-10-24T12:51:02 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webloginhomeloan -->
+        <test-method signature="webloginhomeloan()[pri:0, instance:TstNGFrm.NGFrm.day4@6be968ce]" started-at="2023-10-24T12:51:02 IST" name="webloginhomeloan" finished-at="2023-10-24T12:51:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webloginhomeloan -->
+      </class> <!-- TstNGFrm.NGFrm.day4 -->
+      <class name="TstNGFrm.NGFrm.day2">
+        <test-method is-config="true" signature="cleanalltempfileBeforeSuite()[pri:0, instance:TstNGFrm.NGFrm.day2@74d1dc36]" started-at="2023-10-24T12:51:01 IST" name="cleanalltempfileBeforeSuite" finished-at="2023-10-24T12:51:02 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanalltempfileBeforeSuite -->
+        <test-method is-config="true" signature="cleanalltempfileAfterSuite()[pri:0, instance:TstNGFrm.NGFrm.day2@74d1dc36]" started-at="2023-10-24T12:51:02 IST" name="cleanalltempfileAfterSuite" finished-at="2023-10-24T12:51:02 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanalltempfileAfterSuite -->
+      </class> <!-- TstNGFrm.NGFrm.day2 -->
+    </test> <!-- Mobile Loan -->
+  </suite> <!-- Suite -->
+</testng-results>
